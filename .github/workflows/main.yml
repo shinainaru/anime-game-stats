@@ -34,10 +34,10 @@ jobs:
         run: |
           git diff
           git checkout --orphan temp_branch
-          git config user.name "MhankBarBar"
-          git config user.email "mhankbarbar@pm.me"
+          git config user.name "Cuyys"
+          git config user.email "akunns@game.me"
           git add -A
-          git commit -asm "Joy's Genshin Impact stats"
+          git commit -asm "Angga's Genshin Impact stats"
           git branch -D master
           git branch -m master
           git push -f origin master
